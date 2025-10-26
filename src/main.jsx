@@ -1,5 +1,5 @@
 // src/main.jsx
-import React from 'react';
+import React, { StrictMode } from 'react'; // <-- AGGIUNGI { StrictMode }
 import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
 import { AudioPlayerProvider } from './store/context/audio-player-context.jsx';
@@ -7,7 +7,7 @@ import { AudioPlayerProvider } from './store/context/audio-player-context.jsx';
 import './index.css'; 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  <StrictMode> {/* Ora questo è definito */}
     <AudioPlayerProvider>
       <App />
     </AudioPlayerProvider>
