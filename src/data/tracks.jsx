@@ -6,7 +6,7 @@ export const tracks = [
     src: '/a_beautiful_day.mp3', 
     author: 'Trinix ft Rushawn',
     // Il file vite.svg in public/ diventa '/vite.svg'
-    thumbnail: '/vite.svg', 
+    thumbnail: '/img1.jpeg', 
   },
   {
     title: 'Brano Esempio 2',
